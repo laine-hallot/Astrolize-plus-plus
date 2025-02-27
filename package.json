@@ -6,6 +6,12 @@
     "engines": {
         "vscode": "^1.45.0"
     },
+    "files":[
+        "themes/astrolize.json",
+        "images/",
+        "README.md",
+        "package.json"
+    ],
     "keywords": [
 		"theme",
 		"astrolokeys",

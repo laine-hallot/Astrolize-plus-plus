@@ -1,0 +1,17 @@
+div > span:active :last-of-type ::before  {
+  content: "Hello";
+  color: red;
+  top: 12px;
+  height: 100%;
+  width: 100%;
+}
+
+.class1 {
+  color: #00aa00;
+  font-size: 12px;
+}
+
+#someId {
+  color: rgb(12, 121, 123);
+  font-size: 14px;
+}
