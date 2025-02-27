@@ -481,6 +481,45 @@
 			"name": "Variables (System)",
 			"scope": [ "support.variable.System" ],
 			"settings": { "foreground": "#506892" } 
-		}
+		},
+
+    {
+      "name": "Tag (HTML)",
+      "scope": ["entity.name.tag.html"],
+      "settings": { "foreground": "#add6c5" }
+    },
+    {
+      "name": "Attribute (HTML)",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": { "foreground": "#9b83f2" }
+    },
+
+    {
+      "name": "Tag (JSX)",
+      "scope": ["entity.name.tag.jsx", "entity.name.tag.tsx"],
+      "settings": { "foreground": "#e7aac3" }
+    },
+    {
+      "name": "Prop (JSX)",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": { "foreground": "#9b83f2" }
+    },
+
+    {
+      "name": "Selector (CSS)",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": { "foreground": "#9b83f2" }
+    },
+    {
+      "name": "Tag selector (CSS)",
+      "scope": ["entity.name.tag.css"],
+      "settings": { "foreground": "#add6c5" }
+    }
 	]
 }
