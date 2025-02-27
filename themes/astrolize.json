@@ -496,13 +496,13 @@
 
     {
       "name": "Tag (JSX)",
-      "scope": ["entity.name.tag.jsx", "entity.name.tag.tsx"],
-      "settings": { "foreground": "#e7aac3" }
+      "scope": ["entity.name.tag.js.jsx", "entity.name.tag.tsx"],
+      "settings": { "foreground": "#add6c5" }
     },
     {
       "name": "Prop (JSX)",
       "scope": [
-        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.js.jsx",
         "entity.other.attribute-name.tsx"
       ],
       "settings": { "foreground": "#9b83f2" }
