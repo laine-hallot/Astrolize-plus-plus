@@ -1,7 +1,7 @@
 {
-    "name": "astrolize",
-    "displayName": "Astrolize",
-    "description": "A soft astrolokeys IDE theme, because code can be cute.",
+    "name": "astrolize-plus-plus",
+    "displayName": "Astrolize++",
+    "description": "A slight extension of the Astrolize VSCode theme.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.45.0"
@@ -17,24 +17,24 @@
         "c#",
         "unity"
 	],
-    "publisher": "spara-joy",
+    "publisher": "laine-hallot",
     "author": {
-        "name": "Alex Lindman (sparajoy)",
-        "url": "https://twitter.com/SparaJoy"
+        "name": "Laine Hallot (laine-hallot)",
+        "url": "https://github.com/laine-hallot"
     },
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/spara-joy/Astrolize-VScode-Theme"
+        "url": "https://github.com/laine-hallot/Astrolize-plus-plus"
     },
-    "homepage": "https://github.com/spara-joy/Astrolize-VScode-Theme/blob/master/README.md",
+    "homepage": "https://github.com/laine-hallot/Astrolize-plus-plus/blob/master/README.md",
     "categories": [
         "Themes"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Astrolize",
+                "label": "Astrolize++",
                 "uiTheme": "vs-dark",
                 "path": "./themes/astrolize.json"
             }
